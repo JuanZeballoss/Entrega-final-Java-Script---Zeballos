@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#vaciarCarrito{
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 15%;
+    margin: auto;
+    font-size: 22px;
+}
+
+.actualizarCarrito {
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+#trashCan{
+    color: red;
+}
+
+.verCarrito {
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+    width: 18%;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.verCarrito:hover{
+    color: white;
+}
+
+.img {
+    width: 15%;
+    margin: auto;
+}
+
+#botonPagar{
+    margin-top: 10px;
+    background-color: rgb(104, 104, 104);
+    cursor: pointer;
+}
+
+#botonPagar:hover{
+    background-color: black;
+    transform: scale(150%);
+    transition: 0.5s;
+}
